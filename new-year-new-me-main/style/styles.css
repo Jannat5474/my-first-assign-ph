@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+}
+/* header step */
+.first-step{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1600px;
+    height: 809px;
+    text-align: right;
+}
+.title1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    padding-top: 216px;
+    padding-left: 845px;
+    padding-right: 230px;
+    padding-bottom: 24px;
+    
+}
+.description1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-left: 876px;
+    padding-right: 230px;
+    
+}
+.btn1{
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-bottom: 67px;
+    margin-left: 1210px;
+    margin-right: 230px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-right: 21px;
+    padding-right: 25px;
+    padding-left: 26px;
+    border: none;
+}
+/* second step */
+.second-step{
+    display: flex;
+}
+.picture{
+    padding-top: 130px;
+    padding-left: 206px;
+    padding-right: 87px;
+
+}
+.title2{
+    padding-top: 369px;
+    padding-right: 150px;
+    padding-left: 87px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181717;
+
+}
+.description2{
+    padding-top: 24px;
+    padding-right: 133px;
+    padding-left: 87px;
+    padding-bottom: 21px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.list{
+    padding-right: 50px;
+    padding-left: 87px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+   
+    
+
+}
+ul{
+    list-style: none;
+    
+}
+ul li:before{
+    content: '✓';
+    color: green;
+}
+/* third step */
+.content2{
+    display: flex;
+    gap: 86px;
+    text-align: center;
+    padding-top:130px ;
+    padding-left: 260px;
+    padding-right: 50px;
+}
+h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+   
+    
+}
+p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+.title3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px; 
+    text-align: center;
+    color: #151414;
+    padding-top: 130px;
+    padding-left: 677px;
+    padding-right: 510px;
+}
+/* fourth step here */
+.fourth-step{
+    background-image:  url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1040px;
+    height: 300px;
+    margin-top: 124px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    margin-right: 130px; 
+    border-radius: 8px;
+     
+}
+ .description3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 59px;
+    padding-bottom: 24px;
+    padding-left: 64px;
+    padding-right: 517px;
+    color: #FFFFFF;
+}
+.btn2{
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    margin-bottom: 59px;
+    border-radius: 5px;
+    border: none;
+    color:  #F15B22;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+
+
+}
+/* fifth step here */
+.fifth-step{
+    display: flex;
+    height: 477px;
+    width: 1600px;
+    background-color: #181717;
+    margin-bottom: 34px;
+    
+}
+
+.title4{
+    padding-top: 130px;
+    padding-bottom: 16px;
+    padding-left: 230px;
+    padding-right: 668px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+
+}
+.description5{
+    padding-left: 230px;
+    padding-right: 331px;
+    padding-bottom: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.description7{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Work Sans';
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-bottom: 31px;
+    padding-right: 431px;
+}
+.for-email{
+    margin-right: 229px;
+    margin-bottom: 16px;
+    height: 34px;
+    border: 1px solid white;
+    width:250px;
+    border-radius: 5px;
+
+}
+.email-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    padding-left: 21px;
+    padding-right: 58px;
+
+}
+.btn4{
+    width: 140px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+/* here i am add extra design */
+.extra{
+    display: flex;
+    gap: 24px;
+    margin-left: 230px;
+    margin-top: 134px;
+   
+
+}
+.box{
+    height: 364px;
+    width: 545px;
+    border: none;
+    text-align: center;
+    padding-top: 100px;
+}
+.sub-heading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:lightslategrey;
+    padding-bottom: 30px;
+
+}
+.sub-description{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color:lightslategrey;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
